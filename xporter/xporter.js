@@ -7,15 +7,7 @@ const path = require('path');
 const { Con } = require('./utils');
 const con = new Con();
 
-const db = [
-    "postgres",
-    "azure_maintenance",
-    "azure_sys",
-    "cb_db_20_aug",
-    "am_shm_cb_db",
-    "cbdb",
-    "am_shm_cb_db_new"
-];
+const db = []; // list of db names here
 
 let client = null;
 
