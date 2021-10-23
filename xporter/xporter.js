@@ -6,7 +6,6 @@ const path = require('path');
 
 const { Con } = require('./utils');
 const con = new Con();
-// pg_dump -U clybaydmin@clybaywebserver -h clybaywebserver.postgres.database.azure.com -p 5432 -d am_shm_cb_db -f am_shm_cb_db.tar -F tar
 
 const db = [
     "postgres",
